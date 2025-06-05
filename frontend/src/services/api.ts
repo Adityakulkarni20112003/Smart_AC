@@ -23,7 +23,7 @@ export interface PredictionErrorResponse {
   timestamp?: string;
 }
 
-const API_BASE_URL = 'http://localhost:5000'; // Assuming Flask runs on port 5000
+const API_BASE_URL = 'https://ac-backend-hidq.onrender.com'; // Assuming Flask runs on port 5000
 
 export async function getIdealTemperaturePrediction(
   data: PredictionInput
